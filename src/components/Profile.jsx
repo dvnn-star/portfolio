@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Profile(){
     return(
-        <div id="profile" className="section mt-20"> 
+        <div id="profile" className="section mt-20 md:mt-44"> 
         
             <div className="w-full">
                 <div className="flex justify-center pb-20 " data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
@@ -30,8 +30,10 @@ export default function Profile(){
                        
                     </div>
                 </div>
+        <div className="relative ">
+        <h1 className="absolute  text-3xl -bottom-12 right-14 font-bold text-gray-400 capitalize"  data-aos-delay="300" data-aos-once="true"data-aos="fade-left">next</h1>
+        </div>
             </div>
-        
         </div>
     )
 }

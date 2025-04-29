@@ -3,13 +3,15 @@ import transition from "./transition";
 import { FaWindowMinimize } from "react-icons/fa";
 import { FiMinimize2 } from "react-icons/fi";
 import { RxExit } from "react-icons/rx";
+import JuaraBasket from "../assets/juarabasket.jpeg"
+import Juaraml from "../assets/juaraml.jpeg"
 
 
 import { IoIosBasketball } from "react-icons/io";
 
 function Achievement  () {
   return (
-    <div className=" relative">
+    <div className=" relative w-screen">
       {/* Title (MyHobby) */}
       <div data-aos="fade-left" data-aos-delay="300" data-aos-once="true" className= " flex justify-center items-center pt-10">
         <h1 className="text-white font-serif text-3xl font-bold">
@@ -24,12 +26,12 @@ function Achievement  () {
       <div className="flex flex-col md:flex-row  justify-center items-center w-full">
 
   {/* Kontainer 1 */}
-  <div className=" flex  justify-center mt-4 p-6 max-w-[800px] border-[5px] border-slate-500 bg-slate-600 relative rounded-lg mx-4" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
+  <div className=" flex  justify-center mt-4 p-6 max-w-[700px] border-[5px] border-slate-500 bg-slate-600 relative rounded-lg mx-4" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
     <div className="box">
 
     </div>
     <img
-      src="src/assets/juarabasket.jpeg"
+      src={JuaraBasket}
       alt="Achievement"
       className="h-[300px] w-[200px] rounded-xl"
       data-aos="fade-right"
@@ -63,9 +65,9 @@ function Achievement  () {
   </div>
 
   {/* Kontainer 2 */}
-  <div className=" flex justify-center mt-4 p-6 max-w-[800px] border-[5px] bg-slate-600 border-slate-500 relative rounded-lg mx-4" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
+  <div className=" flex justify-center mt-4 p-6 max-w-[700px] border-[5px] bg-slate-600 border-slate-500 relative rounded-lg mx-4" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
     <img
-      src="src/assets/juara ml.jpeg"
+      src={Juaraml}
       alt="Achievement"
       className="lg:h-[300px] h-[200px] w-[200px] lg:w-[300px] rounded-xl"
       data-aos="fade-right"

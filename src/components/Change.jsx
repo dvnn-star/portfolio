@@ -6,6 +6,7 @@ import { FaChevronLeft } from "react-icons/fa";
 function Navbar() {
     return (
         <div>
+            
             {/* Tombol Chevron Kiri */}
             <Link to="/">
                 <FaChevronLeft className="text-white scale-[2] fixed bottom-20 left-20 cursor-pointer" />

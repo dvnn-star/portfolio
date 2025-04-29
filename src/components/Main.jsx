@@ -8,7 +8,7 @@ const ExampleComponent = () => {
           // Same substring at the start will only be typed out once, initially
           'Web developer',
           1000, // wait 1s before replacing "Mice" with "Hamsters"
-          'Game Developer Enthusiast',
+          'Machine Learning Enthusiast',
           1000,
           'BasketBall Player',
           1000,
@@ -28,7 +28,7 @@ export default function Main(){
       
         <div data-aos="fade-up"  data-aos-delay="500" id="menu"className="section container mx-auto  max-w-[1200px] px-3 "> 
         <div className="w-full">
-            <div className=" flex justify-center w-full items-center  mt-20 lg:mt-0 mb-10"> 
+            <div className=" flex justify-center w-full items-center  mt-20 lg:mt-10 mb-10"> 
               <img src={Delvin} alt="" className="h-44 rounded-full w-44"/>
             </div>
         <div className="items-center w-full text-center lg:mb-56 mt-20 lg:mt-0">
