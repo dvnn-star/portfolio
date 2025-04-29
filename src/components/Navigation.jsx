@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { BiHome } from "react-icons/bi";
 import { GiAchievement ,GiCurlyWing} from "react-icons/gi";
 
-import { nav } from "framer-motion/client";
 
 function Navigasi(){
     return (
