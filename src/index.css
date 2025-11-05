@@ -2,15 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  background: url('/src/assets/bgi.jpg') no-repeat center center fixed;
+  background: url('/src/assets/GIFS.gif') no-repeat center center fixed;
   background-size: cover;
 }
 .font{
   color: rgb(100, 300, 200);
 }
 .section{
-  @apply py-8 lg:py-20 lg:h-screen flex items-center
+  @apply py-8 lg:py-20 lg:h-screen  flex items-center
 }
 
 .active{
@@ -51,7 +52,7 @@ html, body {
 
 
 .background{
-  background: url("/src/assets/satr2.jpg")  no-repeat center center fixed;
+  background: url("/src/assets/GIFS.gif")  no-repeat center center fixed;
   background-size: cover;
  
 }

@@ -13,7 +13,7 @@ export default function Portfolio(){
           <div className="font-bold lg:mt-44 text-center" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
             <h4 className="text-3xl font-bold text-white font-mono">My Project</h4>
             <h2 className="text-xl font-semibold text-white mt-2 font-sans" >
-              Project saya selama saya hidup
+              Project saya
             </h2>
           </div>
       

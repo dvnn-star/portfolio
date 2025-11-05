@@ -9,7 +9,7 @@
     "build": "vite build",
    "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "npm run dev",
     "predeploy":"npm run build"
   },
   "dependencies": {

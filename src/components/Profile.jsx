@@ -30,9 +30,9 @@ export default function Profile(){
                        
                     </div>
                 </div>
-        <div className="relative ">
+        {/* <div className="relative ">
         <h1 className="absolute  text-3xl -bottom-12 right-14 font-bold text-gray-400 capitalize"  data-aos-delay="300" data-aos-once="true"data-aos="fade-left">next</h1>
-        </div>
+        </div> */}
             </div>
         </div>
     )
