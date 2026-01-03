@@ -1,15 +1,15 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import hutao from "../assets/hutao.jpeg"
-import Delvin from "../assets/delvin.jpeg"
+import Delvin from "../assets/Delvin.jpg"
 const ExampleComponent = () => {
     return (
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
-          'a guy ',
+          'A Guy',
           1000, // wait 1s before replacing "Mice" with "Hamsters"
-          'An IT Person ',
+          'A University Student',
           1000,
           'BasketBall Player', 
           1000,
@@ -30,7 +30,7 @@ export default function Main(){
         <div data-aos="fade-up"  data-aos-delay="500" id="menu"className="section container mx-auto  max-w-[1200px] px-3 "> 
         <div className="w-full">
             <div className=" flex justify-center w-full items-center  mt-20 lg:mt-10 mb-10"> 
-              <img src={hutao} alt="" className="h-44 rounded-full w-44"/>
+              <img src={Delvin} alt="" className="h-44 rounded-full w-44 bg-cover"/>
             </div>
         <div className="items-center w-full text-center lg:mb-56 mt-20 lg:mt-0">
             <p className="text-3xl text font-serif font-bold ">Hello,I'm Delvin</p>

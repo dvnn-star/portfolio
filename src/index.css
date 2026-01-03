@@ -4,7 +4,7 @@
 
 
 body {
-  background: url('/src/assets/GIFS.gif') no-repeat center center fixed;
+  background: url('/src/assets/bgi.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 .font{
@@ -52,7 +52,7 @@ html, body {
 
 
 .background{
-  background: url("/src/assets/GIFS.gif")  no-repeat center center fixed;
+  background: url("/src/assets/bgi.jpg")  no-repeat center center fixed;
   background-size: cover;
  
 }
