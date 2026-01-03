@@ -9,9 +9,9 @@ const ExampleComponent = () => {
           // Same substring at the start will only be typed out once, initially
           'a guy ',
           1000, // wait 1s before replacing "Mice" with "Hamsters"
-          'Machine Learning Enthusiast',
+          'An IT Person ',
           1000,
-          'BasketBall Player',
+          'BasketBall Player', 
           1000,
 
         
